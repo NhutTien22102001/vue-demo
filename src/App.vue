@@ -17,7 +17,7 @@
 </template>
 
 <script>
-import LoadingSkeleton from "./components/constants/LoadingSkeleton.vue";
+import LoadingSkeleton from "@/components/constants/LoadingSkeleton.vue";
 import { mapGetters, mapState } from "vuex";
 
 export default {
