@@ -12,7 +12,7 @@ export default defineConfig({
       additionalLegacyPolyfills: ["regenerator-runtime/runtime"],
     }),
   ],
-  base: "/",
+  base: "/vue-demo/",
   resolve: {
     alias: {
       "@": fileURLToPath(new URL("./src", import.meta.url)),
